@@ -36,7 +36,7 @@ WHERE age = 18;
 
 SELECT name
 FROM person
-WHERE age < 20 AND age > 30;
+WHERE age < 20 OR age > 30;
 
 SELECT name
 FROM person
